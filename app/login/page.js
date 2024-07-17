@@ -4,8 +4,9 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/navigation'
 const Login = () =>{
     const { data: session } = useSession()
+    const router = useRouter()
     if (session) {
-        const router = useRouter()
+        
         router.push('/dashboard')
     }
   return (
