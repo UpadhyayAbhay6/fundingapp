@@ -96,7 +96,7 @@ const PaymentPage = ({ username }) => {
             </div>
             <div className='info flex justify-center items-center my-24 flex-col gap-1'>
                 <div className='font-bold text-lg'>@{username}</div>
-                <div className='text-slate-400'>Let's help The {currentUser.name}</div>
+                <div className='text-slate-400'>Lets help The {currentUser.name}</div>
                 <div className='text-slate-400'>{payments.length} Payments. ₹{payments.reduce((a, b) => a + b.amount, 0)} raised</div>
                 <div className='payment flex gap-3 w-[80%] mt-11'>
                     <div className='supporters w-1/2 bg-slate-900 rounded-lg p-10'>
@@ -106,7 +106,7 @@ const PaymentPage = ({ username }) => {
                             {payments.map((p, i) => {
                                 return <li key={i} className='my-4 flex gap-2 items-center'>
                                     <img width={33} src="avatar.gif" alt="" />
-                                    <span className='flex gap-2 items-center'><span><span className='font-bold italic'>{p.name} </span> from <span className='font-bold italic'>{p.address}</span> donated <span className='font-bold'> ₹{p.amount} </span> with a message "{p.message}" </span></span><img
+                                    <span className='flex gap-2 items-center'><span><span className='font-bold italic'>{p.name} </span> from <span className='font-bold italic'>{p.address}</span> donated <span className='font-bold'> ₹{p.amount} </span> with a message {p.message} </span></span><img
                                      className='rounded-full' width={30} src='heart.gif' alt='' />
                                 </li>
                             })}
