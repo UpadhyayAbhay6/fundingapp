@@ -14,7 +14,8 @@ function Navbar() {
     return (
         <nav className='bg-gray-900 shadow-lg shadow-white text-white flex justify-between px-4 items-center h-16'>
             <Link href={"/"} className='logo font-bold text-lg flex justify-center items-center gap-2'>
-                <img className='rounded-full' width={44} src="https://cdn3.vectorstock.com/i/1000x1000/45/82/funding-platform-project-financing-icon-vector-38754582.jpg" alt="" />
+                <img className='rounded-full' width={44} 
+                src="https://cdn3.vectorstock.com/i/1000x1000/45/82/funding-platform-project-financing-icon-vector-38754582.jpg" alt="" />
                 <span>FundingExpress!</span>
             </Link>
             <div className='relative'>

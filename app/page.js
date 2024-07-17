@@ -31,19 +31,22 @@ export default function Home() {
         <h2 className="text-2xl font-bold text-center mb-14">Your Fans can buy you a Coffee</h2>
         <div className="gap-5 flex justify-around">
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 p-2 rounded-full text-black" width={78} src="https://cdn3.vectorstock.com/i/1000x1000/45/82/funding-platform-project-financing-icon-vector-38754582.jpg" alt="" />
+            <img className="bg-slate-400 p-2 rounded-full text-black" width={78} 
+            src="https://cdn3.vectorstock.com/i/1000x1000/45/82/funding-platform-project-financing-icon-vector-38754582.jpg" alt="" />
             <p className="font-bold">Fans want to help</p>
             <p>Your fans are available for you to help you</p>
           </div>
 
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 p-2 rounded-full text-black" width={78} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlrjhCNo0LZkbhwulYb17JX7_W2T4yhkueQ&s" alt="" />
+            <img className="bg-slate-400 p-2 rounded-full text-black" width={78} 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlrjhCNo0LZkbhwulYb17JX7_W2T4yhkueQ&s" alt="" />
             <p className="font-bold">Fans want to help</p>
             <p>Your fans are available for you to help you</p>
           </div>
 
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 p-2 rounded-full text-black" width={78} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMnt8jiPdbTwpQkvThkOnGGLjWhQfzUvqMg&s" alt="" />
+            <img className="bg-slate-400 p-2 rounded-full text-black" width={78} 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMnt8jiPdbTwpQkvThkOnGGLjWhQfzUvqMg&s" alt="" />
             <p className="font-bold">Fans want to help</p>
             <p>Your fans are available for you to help you</p>
           </div>
